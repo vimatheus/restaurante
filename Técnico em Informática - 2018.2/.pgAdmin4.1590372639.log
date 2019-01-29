@@ -1,0 +1,57 @@
+2019-01-24 09:01:23,122: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3296910(Query-id: 6449168):
+Error Message:ERROR:  null value in column "codcidade" violates not-null constraint
+DETAIL:  Failing row contains (null, Nova Iguaçu).
+SQL state: 23502
+2019-01-24 09:13:12,106: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3296910(Query-id: 6452712):
+Error Message:ERROR:  operator does not exist: character varying = integer
+LINE 1: select sum(saldo) from conta where codagencia=6849;
+                                                     ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+SQL state: 42883
+Character: 46
+2019-01-24 09:13:13,498: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3296910(Query-id: 6250926):
+Error Message:ERROR:  operator does not exist: character varying = integer
+LINE 1: select sum(saldo) from conta where codagencia=6849;
+                                                     ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+SQL state: 42883
+Character: 46
+2019-01-24 09:14:36,344: ERROR	werkzeug:	Error on request:
+Traceback (most recent call last):
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\werkzeug\serving.py", line 270, in run_wsgi
+    execute(self.server.app)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\werkzeug\serving.py", line 258, in execute
+    application_iter = app(environ, start_response)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\venv\Lib\site-packages\flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\web\pgadmin\tools\sqleditor\__init__.py", line 1512, in query_tool_status
+    conn.check_notifies(True)
+  File "C:\Program Files\PostgreSQL\11\pgAdmin 4\web\pgadmin\utils\driver\psycopg2\connection.py", line 1805, in check_notifies
+    self.conn.poll()
+psycopg2.ProgrammingError: operator does not exist: character varying = integer
+LINE 1: select sum(saldo) from conta where codagencia=3452;
+                                                     ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2019-01-24 10:51:21,071: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3296910(Query-id: 6904002):
+Error Message:ERROR:  relation "cidade" already exists
+SQL state: 42P07

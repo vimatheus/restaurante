@@ -1,0 +1,46 @@
+VirtualBox GUI VM Selector Window 5.2.22 r126460 win.amd64 (Nov  8 2018 19:34:58) release log
+00:00:11.412800 Log opened 2019-01-21T20:54:54.403200100Z
+00:00:11.412800 Build Type: release
+00:00:11.412800 OS Product: Windows 7
+00:00:11.412800 OS Release: 6.1.7601
+00:00:11.412800 OS Service Pack: 1
+00:00:11.444000 DMI Product Name: OptiPlex 5050
+00:00:11.444000 DMI Product Version: 
+00:00:11.444000 Host RAM: 8056MB (7.8GB) total, 5900MB (5.7GB) available
+00:00:11.444000 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:11.444000 Process ID: 5748
+00:00:11.444000 Package type: WINDOWS_64BITS_GENERIC
+00:00:11.444000 Qt version: 5.6.2
+00:00:11.475200 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:11.615600 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:28.691400 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:51.474400 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:05.756900 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:06.333900 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:06.375900 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:10.970900 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:04.339200 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:04.380200 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:08.978700 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:47.759700 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:10:26.558200 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:55.852200 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:04.967700 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:04.981200 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:05.061700 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:09.358700 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:42.240700 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:33:29.505200 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:34:16.881700 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1024x768
+00:34:16.882700 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x0 x 1024x728
+00:34:18.676200 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1440x900
+00:34:18.678200 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x0 x 1440x860
+umerator: Medium-enumeration started...
+00:31:53.163300 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:21.053300 GUI: UIMediumEnumerator: Medium with key={e7fc5fe6-9a0c-4264-9dd1-8ff6b994a564} created
+00:32:21.292300 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:33:08.537300 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:33:55.917300 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1024x768
+00:33:55.917800 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x0 x 1024x728
+00:33:57.734300 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1440x900
+00:33:57.734800 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x0 x 1440x860

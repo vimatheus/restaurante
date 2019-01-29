@@ -1,0 +1,22 @@
+h1{
+    color: white;
+    
+}
+
+.navbar{
+    background-color: pink !important;
+    
+}
+
+footer{
+    background-color: pink;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+
+}
+
+.pagina-inicial img{
+    max-width: 100%;
+}
